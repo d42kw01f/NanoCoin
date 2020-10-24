@@ -116,11 +116,10 @@ If I print Lines:
 		Lines[Number] = Line.strip()
 ●	#this will give you only the values(Data). Without “Index: ,Data: ,Previous Hash: ,Nonce: “
 		Lines[Number] = Line[10:]
-If I print Lines[Number] output is:
-	 
 		Number += 1
 	sha = hashlib.sha256()
 	for Line in Lines:
+
 ●	#encode each line update it to sha.
 sha.update(Line.encode(encoding='UTF-8',errors='strict'))
 	BlockChainFile.close()
