@@ -31,8 +31,6 @@ This is a simulate of a crypto currency system using Python.
 		TheDigest = sha.hexdigest()
 ○	#creating the new block.
 		Creating_Block(TheIndex, TheTime, TheData, TheDigest, ThePrevious, TheNonce)
-		
-		![image](https://user-images.githubusercontent.com/72387469/97069788-2f031e80-15f0-11eb-8689-be7399ec0b25.png)
 
 		
 ●	def Block_Index():
@@ -90,8 +88,6 @@ which is the index number of the last block.
 	return NewTransaction
 
 If I print NewTransactionout, the program will give the most recent value:
-
-PROGRAM OUTPUT:
  
 REAL FILE(Transaction.txt):
  
@@ -177,7 +173,4 @@ FUNCTION FINAL OUTPUT:
 			break
 ○	#increasing Nonce while looping.
 		Nonce += 1
-PROGRAM OUTPUT:
- 
-REAL FILE(Transaction.txt):
  
