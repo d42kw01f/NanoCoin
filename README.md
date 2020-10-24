@@ -32,11 +32,7 @@ This is a simulate of a crypto currency system using Python.
 ○	#creating the new block.
 		Creating_Block(TheIndex, TheTime, TheData, TheDigest, ThePrevious, TheNonce)
 
-			PROGRAM OUTPUT:
- 
-
-
-
+			PROGRAM OUTPUT: ![image](https://user-images.githubusercontent.com/72387469/97069788-2f031e80-15f0-11eb-8689-be7399ec0b25.png)
 
 ●	def Block_Index():
 ○	#Return the last index form the file
